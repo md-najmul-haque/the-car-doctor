@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -7,6 +7,8 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Register = () => {
+
+    const [agree, setAgree] = useState(false)
 
     const [
         createUserWithEmailAndPassword,
@@ -20,8 +22,12 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
+        // const agree = event.target.terms.checked
         console.log(name, email, password)
-        createUserWithEmailAndPassword(email, password);
+
+        if (agree) {
+            createUserWithEmailAndPassword(email, password);
+        }
     }
 
     return (
@@ -40,10 +46,10 @@ const Register = () => {
                     <Form.Control type="password" name="password" id="" placeholder="Password" required />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                <Form.Group className="mb-3">
+                    <Form.Check onClick={() => setAgree(!agree)} className={`ms-0 ${agree ? '' : 'text-danger'}`} type="checkbox" name="terms" label="Accept The Car Doctor's Trams and Condition?" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button disabled={!agree} variant="primary" type="submit">
                     Register
                 </Button>
             </Form>
