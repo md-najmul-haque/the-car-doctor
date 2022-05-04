@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Discovery organic apple cider vinegar with the mother 500ml",
+        "price": "690",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/s2wHcgQ"
+    },
+    {
+        "id": 2,
+        "name": "Discovery organic apple cider vinegar with the mother 1L",
+        "price": "1200",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/s2wHcgQ"
+    },
+    {
+        "id": 3,
+        "name": "Agrilife Organic coconut cider vinegar with the mother 240ml",
+        "price": "450",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/0GSTTrb/9-Coconut-VInegar.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Agrilife Organic coconut cider vinegar with the mother 480ml",
+        "price": "790",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/0GSTTrb/9-Coconut-VInegar.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Himalayan Pink salt",
+        "price": "220",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/s2wHcgQ"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Gram Himalayan Pink/Rock salt - Singapore",
+        "price": "500",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://ibb.co/s2wHcgQ"
+    }
+]

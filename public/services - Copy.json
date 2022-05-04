@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Consultation",
+        "price": "100",
+        "description": "This is dentist Whadh Hanlk. I am providing all kinds of dental services in your city. Healthy teeth are needed for the best smiley face so do check-up regularly.",
+        "img": "https://i.ibb.co/JdnVp0S/teleconsultation.png"
+    },
+    {
+        "id": 2,
+        "name": "Pediatric dental services",
+        "price": "100",
+        "description": "The dental equivalent of pediatricians, pediatric dentists have specialized skill sets tailored toward caring for the oral health of children.",
+        "img": "https://i.ibb.co/Y0qgYXD/pediatricdentalservice.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Prosthodontic services",
+        "price": "150",
+        "description": "Specialized in prosthodontic services. Prosthodontic services regard the restoration and replacement of missing or damaged teeth.",
+        "img": "https://i.ibb.co/CKGqN6P/rootcannel.png"
+    },
+    {
+        "id": 4,
+        "name": "Endodontic procedures",
+        "price": "180",
+        "description": "Endodontic procedures refer to painless root canal therapy. Typically, when the interior of a patient’s tooth becomes infected, damaged, or diseased, general dentists will refer them to an endodontist. ",
+        "img": "https://i.ibb.co/nmxHdLS/2264820.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Oral and maxillofacial surgery",
+        "price": "100",
+        "description": "Specialized in the diagnosis and surgical and adjunctive treatment of issues such as injuries, defects, or diseases pertaining to the hard and soft tissues in one’s face, jaw, neck, and mouth.",
+        "img": "https://i.ibb.co/55mxgn2/dentalscaling.png"
+    },
+    {
+        "id": 6,
+        "name": "Orthodontic services",
+        "price": "300",
+        "description": "Orthodontic services help improve the alignment of the teeth and jaw. Patients who have an overbite, underbite, crossbite, or misaligned teeth may require or seek out orthodontic services to help correct such issues.",
+        "img": "https://i.ibb.co/jzYjNhK/scalling.png"
+    }
+]
